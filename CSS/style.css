@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "sajat";
+    src: url(/CSS/FONTS/IndieFlower-Regular.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "navbar";
+    src: url(/CSS/FONTS/Gugi/Gugi-Regular.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "bio";
+    src: url(/CSS/FONTS/Marck_Script/MarckScript-Regular.ttf);
+    font-weight: 500;
+}
+
+body {
+    background-image: url(/IMG/background.jpg);
+    position: relative;
+    size: 100%;
+}
+
+#navbar {
+    background-image: url(/IMG/navbar.jpg);
+}
+
+#navbarText {
+    font-family: "navbar";
+    color: white;
+}
+
+.nav-tabs {
+    background-image: url(/IMG/navbar.jpg);
+}
+
+.nav-link {
+    background-image: url(/IMG/buttonBack.jpg);
+    font-family: "navbar";
+    color: white;
+    font-weight: 800;
+    border: white;
+}
+.topH1 {
+    font-family: "bio";
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-weight: 800;
+    font-style: italic;
+}
+/* //középre igazítás// */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
